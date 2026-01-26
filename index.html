@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>六角恐龍官網</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="logo">
+        <span class="logo-icon">
+          <img src="img/axo.png" alt="bot icon">
+        </span>
+        六角恐龍 AxoBot
+      </div>
+
+      <nav class="nav">
+        <a href="#features" class="nav-link" id="nav1">特色</a>
+        <a href="#commands" class="nav-link" id="nav2">指令</a>
+        <a href="#howto" class="nav-link" id="nav3">使用方式</a>
+        <a href="#faq" class="nav-link" id="nav4">FAQ</a>
+      </nav>
+
+      <div class="top-controls">
+        <button id="langBtn" class="btn">中文</button>
+        <button id="themeBtn" class="btn">深色</button>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="hero">
+        <h1 id="heroTitle">超強 Discord 機器人</h1>
+        <p id="heroDesc">支援多種指令、活動系統、管理功能，打造最強社群助手。</p>
+        <div class="hero-actions">
+          <a id="inviteBtn1" class="btn primary" href="https://discord.com/oauth2/authorize?client_id=1430507165076033577" target="_blank">邀請機器人</a>
+          <a id="discordBtn" class="btn" href="https://discord.gg/NqRNDAQxJU" target="_blank">加入 Discord</a>
+          <a id="docsBtn" class="btn" href="#howto">使用教學</a>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="stat">
+          <div class="stat-number">24/7</div>
+          <div class="stat-label" id="stat1">全天候運作</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">50+</div>
+          <div class="stat-label" id="stat2">指令功能</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">1s</div>
+          <div class="stat-label" id="stat3">快速回應</div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <h2 id="featuresTitle">核心功能</h2>
+        <div class="cards">
+          <div class="card">
+            <h3 id="feature1Title">地震報告</h3>
+            <p id="feature1Desc">自動推送地震報告。</p>
+          </div>
+          <div class="card">
+            <h3 id="feature2Title">娛樂系統</h3>
+            <p id="feature2Desc">同性戀測試、求婚、2048小遊戲，提升社群活躍度。</p>
+          </div>
+          <div class="card">
+            <h3 id="feature3Title">AI 聊天</h3>
+            <p id="feature3Desc">整合 AI 回覆，讓機器人更像真人對話。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="commands" class="section">
+        <h2 id="cmdTitle">熱門指令</h2>
+        <div class="cmd-grid">
+          <div class="cmd">
+            <div class="cmd-name" id="cmdN1">/娛樂系統-同性戀測試</div>
+            <div class="cmd-desc" id="cmdD1">測試對方是不是同性戀</div>
+          </div>
+          <div class="cmd">
+            <div class="cmd-name" id="cmdN2">/娛樂系統-2048</div>
+            <div class="cmd-desc" id="cmdD2">遊玩2048小遊戲</div>
+          </div>
+          <div class="cmd">
+            <div class="cmd-name" id="cmdN3">/娛樂系統-測量長度</div>
+            <div class="cmd-desc" id="cmdD3">測量自己的長度</div>
+          </div>
+          <div class="cmd">
+            <div class="cmd-name" id="cmdN4">/娛樂系統-假禮物連結</div>
+            <div class="cmd-desc" id="cmdD4">生成一個假禮物連結</div>
+          </div>
+          <div class="cmd">
+            <div class="cmd-name" id="cmdN5">/開發功能-查看延遲</div>
+            <div class="cmd-desc" id="cmdD5">查看機器人延遲</div>
+          </div>
+          <div class="cmd">
+            <div class="cmd-name" id="cmdN6">/管理功能-指令幫助</div>
+            <div class="cmd-desc" id="cmdD6">顯示所有指令清單</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="howto" class="section">
+        <h2 id="howTitle">如何使用</h2>
+        <div class="how-grid">
+          <div class="how-card">
+            <h3 id="how1Title">Step 1</h3>
+            <p id="how1Desc">點擊 邀請機器人 按鈕</p>
+            <p></p>
+            <a id="inviteBtn2" class="btn primary" href="https://discord.com/oauth2/authorize?client_id=1430507165076033577" target="_blank">邀請機器人</a>
+          </div>
+          <div class="how-card">
+            <h3 id="how2Title">Step 2</h3>
+            <p id="how2Desc">點擊新增至伺服器</p>
+            <img src="img/invite1.png" alt="invite bot screenshot" class="how-image">
+          </div>
+          <div class="how-card">
+            <h3 id="how3Title">Step 3</h3>
+            <p id="how3Desc">選取要邀請的伺服器</p>
+            <img src="img/invite2.png" alt="select server screenshot" class="how-image">
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <h2 id="faqTitle">常見問題</h2>
+        <div class="faq">
+          <div class="faq-item">
+            <h3 id="q1">Q1: 這個機器人是免費嗎？</h3>
+            <p id="a1">A1: 是的，所有功能完全免費。</p>
+          </div>
+          <div class="faq-item">
+            <h3 id="q2">Q2: 我可以自訂指令嗎？</h3>
+            <p id="a2">A2: 目前尚未開放自訂指令。</p>
+          </div>
+          <div class="faq-item">
+            <h3 id="q3">Q3: 機器人需要什麼權限？</h3>
+            <p id="a3">A3: 需要基本管理權限、發送訊息與讀取訊息權限。</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer-left">
+        <div class="footer-logo">六角恐龍 AxoBot</div>
+        <div class="footer-text" id="footerText">© 2026 六角恐龍 AxoBot. All rights reserved.</div>
+      </div>
+      <div class="footer-links">
+        <a href="https://discord.com/oauth2/authorize?client_id=1430507165076033577" class="footer-link" id="footerInvite" target="_blank">邀請機器人</a>
+        <a href="https://discord.gg/NqRNDAQxJU" target="_blank" class="footer-link" id="footerDiscord">Discord</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
