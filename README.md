@@ -1,1 +1,1 @@
-# axobot.github.io
+# axobot.qzz.io
